@@ -58,14 +58,25 @@ a{
 }
 
 .skills{
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
+border-radius: 50%;
 }
 
+
 .eduimage{
-  height: 200px;
-  width: 200px;
-  margin-top: 0;
+  height: 100px;
+  width: 100px;
+  float: left;
+  border-radius: 50%;
+  }
+.edudiv{
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+.edudetails{
+  line-height: 2;
 }
 .skill-row{
   width: 50%;
@@ -75,6 +86,16 @@ a{
 .hobbies{
   width: 50%;
   margin: auto;
+  text-align: right;
+}
+.hobbiesimage{
+  height: 100px;
+  width: 100px;
+  float: right;
+  border-radius: 50%;
+}
+.hobbytypes{
+  line-height: 2;
 }
 .contact{
   width: 50%;
@@ -87,4 +108,8 @@ a{
 }
 .skills-table{
   margin: auto;
+}
+
+.details{
+  line-height: 2;
 }
