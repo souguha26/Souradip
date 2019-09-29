@@ -36,7 +36,7 @@ p{
 background-color: #1fab89;
 }
 .bottom-c{
-background-color: #445c3c;
+background-color: #f6f078;
 }
 .bottom-cloud{
   position: absolute;
@@ -72,15 +72,19 @@ a{
   margin: auto;
 }
 
+.hobbies{
+  width: 50%;
+  margin: auto;
+}
 .contact{
   width: 50%;
   margin: auto;
 }
 
-.skills-table{
+.profile{
+  width: 50%;
   margin: auto;
 }
-
-.unlist{
-  text-align: center;
+.skills-table{
+  margin: auto;
 }
