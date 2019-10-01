@@ -25,19 +25,25 @@ h3{
 
 p{
   font-family: 'Montserrat', sans-serif;
+  line-height: 2;
 }
 
 .top-c{
   background-color: #66bfbf;
   position: relative;
   padding-top: 100px;
+
 }
 .middle-c{
 background-color: #1fab89;
+padding: 100px 0 40px 0;
+
 }
 .bottom-c{
 background-color: #f6f078;
+padding: 50px 0 20px 0;
 }
+
 .bottom-cloud{
   position: absolute;
   left: 10px;
@@ -69,6 +75,7 @@ border-radius: 50%;
   width: 100px;
   float: left;
   border-radius: 50%;
+  margin: 0 20px 0 0;
   }
 .edudiv{
   width: 50%;
@@ -76,7 +83,7 @@ border-radius: 50%;
   text-align: left;
 }
 .edudetails{
-  line-height: 2;
+
 }
 .skill-row{
   width: 50%;
@@ -93,9 +100,9 @@ border-radius: 50%;
   width: 100px;
   float: right;
   border-radius: 50%;
+  margin: 0 0 0 20px;
 }
 .hobbytypes{
-  line-height: 2;
 }
 .contact{
   width: 50%;
@@ -111,5 +118,82 @@ border-radius: 50%;
 }
 
 .details{
-  line-height: 2;
+  width: 70%;
+  margin: auto;
+}
+
+.email{
+  height: 100px;
+  width: 100px;
+
+}
+
+.phone {
+  background: #45615c;
+  background-image: -webkit-linear-gradient(top, #45615c, #35544f);
+  background-image: -moz-linear-gradient(top, #45615c, #35544f);
+  background-image: -ms-linear-gradient(top, #45615c, #35544f);
+  background-image: -o-linear-gradient(top, #45615c, #35544f);
+  background-image: linear-gradient(to bottom, #45615c, #35544f);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.phone:hover {
+  background: #cf5513;
+  background-image: -webkit-linear-gradient(top, #cf5513, #e38410);
+  background-image: -moz-linear-gradient(top, #cf5513, #e38410);
+  background-image: -ms-linear-gradient(top, #cf5513, #e38410);
+  background-image: -o-linear-gradient(top, #cf5513, #e38410);
+  background-image: linear-gradient(to bottom, #cf5513, #e38410);
+  text-decoration: none;
+}
+
+.email {
+  background: #45615c;
+  background-image: -webkit-linear-gradient(top, #45615c, #35544f);
+  background-image: -moz-linear-gradient(top, #45615c, #35544f);
+  background-image: -ms-linear-gradient(top, #45615c, #35544f);
+  background-image: -o-linear-gradient(top, #45615c, #35544f);
+  background-image: linear-gradient(to bottom, #45615c, #35544f);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.email:hover {
+  background: #cf5513;
+  background-image: -webkit-linear-gradient(top, #cf5513, #e38410);
+  background-image: -moz-linear-gradient(top, #cf5513, #e38410);
+  background-image: -ms-linear-gradient(top, #cf5513, #e38410);
+  background-image: -o-linear-gradient(top, #cf5513, #e38410);
+  background-image: linear-gradient(to bottom, #cf5513, #e38410);
+  text-decoration: none;
+}
+
+.footer-link{
+  color: grey;
+  padding: 10px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer-link:hover{
+  color: blue;
+}
+
+.copyright{
+  font-size: 0.75rem;
+  color: black;
 }
